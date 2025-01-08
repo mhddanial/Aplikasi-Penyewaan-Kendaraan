@@ -1,0 +1,58 @@
+
+
+body {
+  color: #f5f5f5;
+  font-family: "Poppins";
+  color: #181717;
+}
+
+.card {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+.card-img-top {
+  max-height: 150px;
+  object-fit: cover;
+}
+
+/* Navbar item hover */
+@media screen and (min-width: 992px) {
+  .navbar {
+    padding: 0;
+  }
+  .navbar .navbar-nav .nav-link {
+    padding: 1em 1em;
+  }
+  .navbar .navbar-nav .nav-item {
+    margin: 0 1em;
+  }
+  .navbar .navbar-nav .nav-item {
+    position: relative;
+  }
+  .navbar .navbar-nav .nav-item::after {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    content: "";
+    background-color: #007aff;
+    color: #181717;
+    width: 0%;
+    height: 3px;
+    transition: all 0.3s;
+  }
+  .navbar .navbar-nav .nav-item:hover::after {
+    width: 100%;
+  }
+}
+
+.carousel-inner {
+  height: 42em; /* Set the height of the carousel */
+}
+
+.carousel-item img {
+  object-fit: cover; /* Ensure images cover the area, maintaining aspect ratio */
+  width: 100%; /* Make images fill the container width */
+  height: 100%; /* Make images fill the container height */
+}
