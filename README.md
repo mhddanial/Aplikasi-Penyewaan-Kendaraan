@@ -7,10 +7,12 @@ Tech Stack :
     - HTML
     - Boostrap CSS
     - Javascript
+    
   Back-end and Database:
     - PHP
     - Javascript
     - MySQL
+    
   Hosting Server :
     InfinityFree
 
